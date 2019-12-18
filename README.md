@@ -3,7 +3,7 @@ DCA - Dlib Contour Artistic Approach for face preprocessing.
 
 DCA uses facial proportions to reconstruct the face and obtain landmarks that are close to the hairline. 
 It operates with [dlib] and extends to the prediction of the hairline with a facial proportion artistic approach
-based on the work of Andrew Loomis[1].
+based on the work of Andrew Loomis[[1]](#1).  
 
 DCA approach for landmark detection:
 
@@ -29,3 +29,9 @@ If you find this code useful in your research, please consider citing:
 
 [logo]: https://github.com/4ND4/DeepUAge/blob/master/fgnet-artistic_contour.png "fgnet artistic contour"
 [dlib]: http://dlib.net/
+
+## References
+<a id="1">[1]</a> 
+Loomis, A. (2017). 
+Figure drawing for all it's worth. 
+EDITORA BIBLIOMUNDI SERVI{\c{C}}OS DIGITAIS LTDA.
