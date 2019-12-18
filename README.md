@@ -34,4 +34,4 @@ If you find this code useful in your research, please consider citing:
 <a id="1">[1]</a> 
 Loomis, A. (2017). 
 Figure drawing for all it's worth. 
-EDITORA BIBLIOMUNDI SERVI{\c{C}}OS DIGITAIS LTDA.
+EDITORA BIBLIOMUNDI SERVIÇOS DIGITAIS LTDA.
