@@ -5,27 +5,27 @@ DCA uses facial proportions to reconstruct the face and obtain landmarks that ar
 It operates with [dlib] and extends to the prediction of the hairline with a facial proportion artistic approach
 based on the work of Andrew Loomis[1].
 
-[dlib]: http://dlib.net/
+DCA approach for landmark detection:
 
-
-
-
-
-@inproceedings{plummerCITE2018,
-Author = {Bryan A. Plummer and Paige Kordas and M. Hadi Kiapour and Shuai Zheng and Robinson Piramuthu and Svetlana Lazebnik},
-Title = {Conditional Image-Text Embedding Networks},
-Booktitle  = {ECCV},
-Year = {2018}
-}
-
+![alt text][logo]
 
 You can crop an image using:
 
 python dca.py --f image_file_name --o image_file_path
 
-Here's our logo:
 
-Reference-style: 
-![alt text][logo]
+If you find this code useful in your research, please consider citing:
 
-[logo]: https://github.com/4ND4/DeepUAge/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+```
+@article{anda2020UnderageAgeEstimation,
+	author={Anda, Felix and Le-Khac, Nhien-An and Scanlon, Mark},
+	title="{DeepUAge: Improving Underage Age Estimation Accuracy to Aid CSEM Investigation}",
+	journal="{Forensic Science International: Digital Investigation}",
+	year="2020",
+	month="03",
+	publisher={Elsevier}
+  }
+```
+
+[logo]: https://github.com/4ND4/DeepUAge/blob/master/fgnet-artistic_contour.png "fgnet artistic contour"
+[dlib]: http://dlib.net/
